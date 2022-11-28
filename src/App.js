@@ -1,11 +1,14 @@
-
 import './App.css';
 
-function App() {
+import { Login } from "./compontents/pages/Login.js";
+
+const  App =() =>{
   return (
-    <div className="App">
-    
+    <div>
+   <Login/>
+
     </div>
+    
   );
 }
 
